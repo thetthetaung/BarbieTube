@@ -12,19 +12,26 @@
 <body>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-3">
-                <a href="" class="nav-link"><i class="fa-solid fa-bars fa-lg"></i></a>
-                <a href="#"><img src="" alt="Logo"></a>
+           <div class="col-md-1">
+                <a href="" class="nav-link"><i class="fa-solid fa-bars fa-lg" style="padding-left:20px;"></i></a>                
             </div>
-            <div class="col-md-6">
-                <div class="search-container">
+            <div class="col-md-11 d-flex justify-content-between">
+                
+                <a href="#" style="margin-right:20px;padding:10px;"><img src="Images/logo1.jpg" alt="Logo"></a>
+                <div class="search-container flex-grow-1">
                     <form action="/search">            
-                      <input type="text" placeholder="Search...">            
-                      <button type="submit">Search</button>            
+                      <input type="text" placeholder="Search..." class="btn-search">            
+                      <!--<button type="submit" >Search</button>-->
+                      <i class="fa-solid fa-microphone"></i>            
                     </form>            
                 </div>
-            </div>
-            <div class="col-md-3">
+                <div class="search-profile p-3">
+                    <a href=""><i class="fa-solid fa-video" style="font-size:30px;padding:5px;"></i></a>
+                    <a href=""><i class="fa-solid fa-bell" style="font-size:30px;padding:5px;"></i></a>
+                    <a href=""><i class="fa-solid fa-user" style="font-size:30px;padding:5px;"></i></a>           
+                </div>
+
+               
 
             </div>
         </div>
